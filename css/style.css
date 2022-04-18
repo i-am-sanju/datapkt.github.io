@@ -53,7 +53,7 @@ a{text-decoration: none; color: black;}
 
 .partner-main {height: 600px;}
 .client-logos {margin: 0 0 60px 0; text-align:  center;}
-.client-logos label {display: inline-block; vertical-align: middle; margin: 0 60px 0 0; font-weight: 600; width: 100px;}
+.client-logos label {display: inline-block; vertical-align: top; margin: 0 60px 0 0; font-weight: 600; width: 100px;}
 .client-logos label:last-child {margin: 0;}
 
 
@@ -70,8 +70,8 @@ a{text-decoration: none; color: black;}
 .whydatapkt h2 {font-size: 24px; font-weight: 700; line-height: 34px; margin: 0 0 20px 0;}
 .whydatapkt p {line-height: 30px;}
 
-.dp-process {width: 60%; float: right;}
-.dp-process .process {display: inline-block; vertical-align: top; width: 260px; margin: 20px 30px;}
+.dp-process {width: 60%; float: right; padding: 20px 0;}
+.dp-process .process {display: inline-block; vertical-align: top; width: 260px; padding: 20px 30px; box-sizing: border-box;}
 .dp-process .process i {display: block; height: 80px; width: 80px;}
 
 .dp-process .process i.dataaquisition {background: url(../images/icon-data-aquisition.png) no-repeat center center/auto 80px;}
@@ -249,32 +249,46 @@ a{text-decoration: none; color: black;}
 
 
 @media only screen and (max-width: 640px) {
-    .client-logos label {margin: 0 20px 0 0; width: 80px;}
+    .client-logos label {margin: 0 20px 30px 0; width: 80px;}
     .whydatapkt {width: 100%; padding: 0 20px; box-sizing: border-box; margin: 0;}
-    .dp-process {width: 100%;}
-    .dp-process .process {width: 250px;}
+    .dp-process {width: 100%; box-sizing: border-box;}
+    .dp-process .process {width: 100%; box-sizing: border-box; float: none;}
     .partner-main {height: auto;}
-    .service-main {box-sizing: border-box;}
-    .service-main .service-left {width: 100%; box-sizing: border-box;}
-    .service-main .service-right {width: 100%; box-sizing: border-box;}
-    .service-main .service-right p {width: 190px;}
-    .ai-image { background: url(../images/ai-engine.png) no-repeat top center #f7f3f0; background-size: auto 440px; height: 440px;}
+    .service-main {box-sizing: border-box; padding: 50px 30px;}
+    .service-main .service-left {width: 100%; box-sizing: border-box; padding: 0; float: none;}
+    .service-main .service-right {width: 100%; box-sizing: border-box; float: none; text-align: left;}
+    .service-main .service-right p {width: 150px;}
+
     .testimonial {padding: 50px 30px;}
-    .whtBlock {padding: 50px; box-sizing: border-box;}
+    .whtBlock {padding: 50px 20px; box-sizing: border-box; width: 100%;}
 
     .drone-pilot {}
     .drone-pilot .pilot-left {width: 100%; height: 450px; background-size: auto 400px;}
     .drone-pilot .pilot-right {width: 100%; float: none; box-sizing: border-box; padding: 100px 50px 50px;}
-    .banner-image {height: 370px; background:url(../images/main-image.png) no-repeat center center/cover;}
+    .banner-image {height: 380px; background:url(../images/main-image.png) no-repeat center bottom/contain #f7f3f0;}
 
-    .main-text {width: 100%; padding: 20px 30px;}
+    .main-text {width: 100%; padding: 20px 30px; box-sizing: border-box;}
     .main-text span {font-size: 30px; line-height: 40px;}
     .main-text label {font-size: 30px; line-height: 40px;}
     .main-text p {margin: 10px 0 ; font-size: 12px;}
 
-    .client-logos {margin: 50px 0;}
+    .client-logos {margin: 30px 0;}
     .client-logos .delhimetro {background-size: auto 25px;}
 
     .logo {margin: 25px 200px 14px 15px;}
 
+    .ai-image .ind-head {box-sizing: border-box; width: 100%; padding: 0;}
+    .ai-image .ind-head h2 {font-size: 26px;}
+    .ai-image .ind-head p {font-size: 18px; line-height: 30px;}
+    .ai-image {padding: 50px 30px; box-sizing: border-box; background: url(../images/ai-engine.png) no-repeat center bottom/contain #f7f3f0; background-size: contain; height: 340px;}
+
+    .industries .ind-names {width: 100%; padding: 30px 15px; box-sizing: border-box;}
+    .industries .ind-names .indus-name {box-sizing: border-box;}
+    .industries .ind-names .indus-name i {margin: 0 10px 0 0; width: 100px; height: 100px; background-size: auto 100px !important;}
+    .industries .ind-names .indus-name2 i {margin: 0 0 0 10px; width: 100px; height: 100px; background-size: auto 100px !important;}
+    .industries .ind-names .indus-name p {width: 220px;}
+    .industries .ind-names .indus-name2 p {margin: 0 10px 0 0; width: 220px;}
+    .testimonial .test-left h2 {font-size: 26px;}
+    .whtBlock h2 {font-size: 22px; margin: 0 0 20px 0;}
+    .authUnit .clear20 {display: none;}
   }
