@@ -8,8 +8,6 @@
 </head>
 <body>
 
-
-
     <header>
         <div class="header">
             <a href="#"class="logo fL"></a>
@@ -26,10 +24,24 @@
     <!-- Top Section -->
     <section id="main">
         <div class="banner-image">
+            <div id="bm"></div>
+            <script src="lottie.js" ></script>
+            <script>
+                var animation = bodymovin.loadAnimation({
+                    container: document.getElementById('bm'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    path: 'motion_1.json'
+          })
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script>
+        
+
             <div class="main-text">
                 <span>We Automate</span>
                 <label>Operations</label>
-                <span>With Drones</span>
+                <span>with Drones</span>
                 <p>Hovering for the future. Flying for you. A detailed bird's eye view of your assets.</p>
                 <a href="#contactus" class="redbtn">Get In Touch</a>
             </div>
@@ -135,6 +147,21 @@
                 <h2>DATAPKT AI Engine</h2>
                 <p>is transforming the world we live in.</p>
             </div>
+
+            <div id="bm2"></div>
+        <script src="lottie.js" ></script>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('bm2'),
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: 'motion2.json' 
+      })
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script>
+
         </div>
     </section>
     <!-- Ai Engine -->
@@ -255,7 +282,7 @@
                         <p>
                             <label>Enter Mobile Number*</label>
                             <span>
-                                <input type="text" placeholder="" />
+                                <input type="tel" placeholder="" maxlength="10" />
                             </span>
                         </p>
                         <p>
@@ -264,7 +291,6 @@
                                 <input type="text" placeholder="" />
                             </span>
                         </p>
-                        <div class="clear20"></div>
                         <p>
                             <label></label>
                             <span>
@@ -285,7 +311,7 @@
             <div class="pilot-right">
                 <h2>DATAPKT DRONE'S PILOT NETWORK</h2>
                 <p>Be a DATAPKT drone pilot from anywhere and everywhere. We're coming to you! We believe in building a community where we are there for eachother.</p>
-                <a href="#" class="redbtn">Fly with us</a>
+                <a href="#" class="redbtn noshow">Fly with us</a>
             </div>
             <div class="clear"></div>
         </div>
