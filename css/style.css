@@ -194,37 +194,53 @@ a{text-decoration: none; color: black;}
 .contact {}
 
 
-@media only screen and (max-width: 640px) {
-  .logo {margin: 25px 200px 14px 10px;}
-  .main-text {padding: 20px; width: 100%; top: 1%;}
-  .main-text p {font-size: 0.8rem; margin: 10px 0; line-height: 00.8rem; font-weight: normal;}
-  .main-text span, .main-text label {font-size: 2.5rem; line-height: 3rem;}
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait)
+{
+  .logo {margin: 25px 200px 14px 10px; height: 30px; width: 146px;}
+  .main-text {padding: 20px; width: 100%; top: -2%;}
+  .main-text p {font-size: 0.8rem; margin: 10px 0; line-height: 0.8rem; font-weight: normal; display: none;}
+  .main-text span, .main-text label {font-size: 1.5rem; line-height: 2rem;}
   .main-text a {display: none;}
   .client-logos {padding: 20px 0;}
-  .client-logos label {margin: 0 4% 0 0; height: 40px; width: 70px;}
+  .client-logos label {margin: 0 4% 6% 0; height: 40px; width: 70px;}
 
-  .whydatapkt {width: 100%; margin: 50px 0 0;}
+  .whydatapkt {width: 100%; margin: 0; padding: 0 30px;}
   .dp-process {width: 100%;}
+  .dp-process .process {width: 100%; padding: 20px;}
+
+
+  .service-main {padding: 30px 20px;}
+  .service-main .service-left h2 {font-size: 1.8rem;}
+  .service-main .service-left .bullets span {font-size: 0.8rem; margin: 0 15px 0 0;}
+
 
   .service-right {text-align: left;}
   .service-main .service-right p {margin: 0 7% 10%; vertical-align: top;}
   .service-main .service-right p:last-child {margin: 0 7% 10%;}
+  
+  .ai-image {padding: 20px;}
+  .ai-image .ind-head h2 {font-size: 1.8rem;}
+  
   .industries {padding: 0 30px; box-sizing: border-box;}
   
   .industries .ind-names {width: 100%;}
 
-  .industries .ind-names .indus-name i {margin: 0 20px 0 0;}
+  .industries .ind-names .indus-name i {margin: 0 20px 0 0; height: 125px; background-size: auto 125px !important;}
   
   .industries .ind-names .indus-name p {}
 
-  .industries .ind-names .indus-name {padding: 15px 0;}
-  .industries .ind-names .indus-name2 {padding: 15px 0;}
+  .industries .ind-names .indus-name {padding: 30px 0;}
+  .industries .ind-names .indus-name2 {padding: 30px 0;}
   .industries .ind-names .indus-name2 p {margin: 0 20px 0 0;}
-  .industries .ind-names .indus-name2 i {}
+  .industries .ind-names .indus-name2 i {background-size: auto 125px; height: 125px;}
   
-  .testimonial {padding: 50px;}
-  
-  .whtBlock {padding: 50px 30px;}
-  .drone-pilot .pilot-left {display: block; width: 100%; padding: 30px 0;}
-  .drone-pilot .pilot-right {display: block; width: 100%; padding: 70px;}
+  .testimonial {padding: 20px;}
+  .testimonial .test-left h2 {font-size: 1.8rem;}
+  .whydatapkt h2 {font-size: 1.8rem;}
+  .whtBlock {padding: 30px 20px;}
+  .whtBlock h2 {font-size: 1.8rem; line-height: 1.8rem;}
+  .drone-pilot .pilot-left {display: block; width: 100%; padding: 30px 0; background-size: contain; height: 215px;}
+  .drone-pilot .pilot-right {display: block; width: 100%; padding: 0 20px 20px 20px;}
+  .drone-pilot .pilot-right h2 {font-size: 1.8rem;}
   }
