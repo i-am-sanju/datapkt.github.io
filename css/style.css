@@ -143,7 +143,7 @@ a{text-decoration: none; color: black;}
 
 .indus-name, .indus-name2 {padding: 0 0; transition: all .2s ease-in-out;}
 .industries .ind-names .indus-name:last-child, .industries .ind-names .indus-name2:last-child {border-bottom: none;}
-
+ 
 .indus-name:hover, .indus-name2:hover {transform: scale(1.05); box-shadow: rgba(0, 0, 0, 0.1);}
 
 .industries .ind-names .indus-name i.highway {background: url(../images/industry-roads.png) no-repeat center center; background-size: auto 250px;}
