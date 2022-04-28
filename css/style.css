@@ -51,7 +51,26 @@ a{text-decoration: none; color: black;}
 
 .main-text {padding: 10px 0 0 40px; width: 60%; box-sizing: border-box; position: absolute; top:2%;}
 .main-text span {display: block; font-size: 3.5rem; font-weight: bold; line-height: 70px;}
+
 .main-text label {display: block; font-size: 3.5rem; font-weight: bold; color: #BC2C3D; line-height: 70px;}
+
+.main-text label::before {content: "Operations"; animation: animate infinite 10s;}
+@keyframes animate {
+  
+  0% {
+      content: "Mapping";
+  }
+
+  50% {
+      content: "Inspection";
+  }
+
+  75% {
+      content: "Public Safety";
+  }
+}
+
+
 .main-text p {display: block; margin: 10px 0 20px; font-size: 0.9rem; font-weight: 600;}
 
 .partner-main {background: #fff; position: relative; clear: both;}
