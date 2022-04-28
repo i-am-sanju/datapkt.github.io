@@ -9,10 +9,10 @@ h2 {font-size: 24px;}
 /* Removing default CSS from form elements */
 input, select, textarea, button{border: none; -webkit-appearance: none;font-family: 'montserrat' 'sans-serif';}
 
-header{background-color: #f7f3f0;}
+header{background-color: #f7f3f0; padding: 20px 0 0 30px;}
 
 a{text-decoration: none; color: black;}
-.logo{background: url(../images/datapkt-logo.svg) no-repeat center center; width: 186px; height: 34px; background-size: contain; display: block; margin: 30px 200px 14px 45px;}
+.logo{background: url(../images/datapkt-logo.svg) no-repeat center left; width: 160px; height: 34px; background-size: contain; display: block; margin: 0 0 20px 0;}
 .nav {display: none;}
 .nav li {display: inline-block; vertical-align: middle; padding: 0 20px;}
 .nav li a {display: block; padding: 20px 0 3px; text-transform: uppercase; transition: all .5s ease; color: #3f3f3f; font-size: 14px; font-weight: 600;}
@@ -35,6 +35,9 @@ a{text-decoration: none; color: black;}
 .clear80 {height: 80px;}
 
 
+
+.fullheight {height: 100vh;}
+
 .twhite {color: #fff;}
 
 .noshow {display: none !important;}
@@ -44,18 +47,20 @@ a{text-decoration: none; color: black;}
 .whitebtn {background:#fff; font-size: 12px; padding: 15px 40px; font-weight: 600; text-transform: uppercase; border-radius: 4px; color: #BC2C3D; display: inline-block; font-family: 'Montserrat', sans-serif;}
 
 
-.banner-image {position: relative;}
+.banner-image {position: relative; clear: both;}
 
-.main-text {padding: 50px; width: 80%; box-sizing: border-box; position: absolute; top:2%;}
-.main-text span {display: block; font-size: 3.8rem; font-weight: bold; line-height: 80px;}
-.main-text label {display: block; font-size: 3.8rem; font-weight: bold; color: #BC2C3D; line-height: 80px;}
-.main-text p {display: block; margin: 20px 0 30px; font-weight: 600; font-size: 1rem; line-height: 30px;}
+.main-text {padding: 10px 0 0 40px; width: 60%; box-sizing: border-box; position: absolute; top:2%;}
+.main-text span {display: block; font-size: 3.5rem; font-weight: bold; line-height: 70px;}
+.main-text label {display: block; font-size: 3.5rem; font-weight: bold; color: #BC2C3D; line-height: 70px;}
+.main-text p {display: block; margin: 10px 0 20px; font-size: 0.9rem; font-weight: 600;}
 
-.partner-main {background: #fff;}
+.partner-main {background: #fff; position: relative; clear: both;}
 
-.client-logos {text-align:  center; padding: 50px 0;}
-.client-logos label {display: inline-block; vertical-align: top; margin: 0 7% 0 0; font-weight: 600; width: 100px; height: 50px;}
+.client-logos {text-align:  left; padding:30px 0 30px 30px; box-sizing: border-box; clear: both; position: relative; background: #bc2c3c;}
+.client-logos label {display: inline-block; vertical-align: top; margin: 0 9% 0 0; font-weight: 600; width: 100px; height: 50px;}
 .client-logos label:last-child {margin: 0;}
+
+.client-logos h2 {margin: 0 0 30px 0; text-align: left; font-size: 1rem; padding: 0 0 0 10px; color: #fff; display: none;}
 
 
 .client-logos .nhai {background: url(../images/logo-nhai.png) no-repeat center center/contain;}
@@ -68,7 +73,7 @@ a{text-decoration: none; color: black;}
 
 
 .whydatapkt {width: 30%; padding: 0 50px; margin: 150px 0; box-sizing: border-box; display: inline-block; vertical-align: top;}
-.whydatapkt h2 {font-size: 2rem; font-weight: 700; line-height: 34px; margin: 0 0 20px 0; text-transform: uppercase;}
+.whydatapkt h2 {font-size: 2rem; font-weight: 700; line-height: 34px; margin: 0 0 20px 0; text-transform: uppercase; color: #bc2c3c;}
 
 
 
@@ -85,23 +90,29 @@ a{text-decoration: none; color: black;}
 .dp-process .process i.dataautomation {background: url(../images/icon-automation.png) no-repeat center center/80px;}
 
 
-.dp-process .process span {font-weight: 600; display: block; margin: 10px 0; text-transform: uppercase; font-size: 1.2rem;}
+.dp-process .process span {font-weight: 600; display: block; margin: 10px 0; text-transform: uppercase; font-size: 1.2rem; color: #bc2c3c;}
 .dp-process .process label {display: block; line-height: 30px; font-size: 0.9rem;}
 
 
-.service-main {background: #fff9ea; padding: 80px 50px;}
+.service-main {background: #fff; padding:3%; box-sizing: border-box; text-align: center;}
 
-.service-main .service-left .bullets {padding: 10px 0;}
-.service-main .service-left .bullets span {display: inline-block; font-weight: 600; margin: 0 30px 0 0; font-size: 0.9rem; text-transform: uppercase;}
+.service-main .service-left .bullets {padding: 10px 0; display: none;}
+.service-main .service-left .bullets span {display: inline-block; margin: 0 10% 0 0; font-size: 1rem; text-transform: uppercase; color: #BC2C3D; font-weight: 600;}
 
-.service-main .service-left h2 {font-size: 30px; text-transform: uppercase; line-height: 30px; font-weight: bold; letter-spacing: 2px; padding: 0; margin: 0 0 10px 0;}
+
+.service-main .service-left {text-align: center; padding: 0 12%;}
+.service-main .service-left h2 {font-size: 2rem; text-transform: capitalize; line-height: 30px; letter-spacing: 2px; padding: 0; margin: 0 0 10px 0; color: #bc2c3c;}
 .service-main .service-left p {font-size: 0.9rem; line-height: 24px; margin: 20px 0;}
 
-.service-main .service-right p {display: inline-block; vertical-align: middle; text-align: center; margin: 0 10% 0 0;}
+.service-main .service-right {margin: 5% 0 0;}
+
+
+.service-main .service-right p {display: inline-block; vertical-align: top; text-align: center; margin: 0 8% 2% 0; width: 150px; background:  rgb(231, 174, 7, 0.2); padding: 20px; border-radius: 4px; transition: all .2s ease-in-out;}
+.service-main .service-right p:hover {transform: scale(1.2);}
 .service-main .service-right p:last-child {margin: 0;}
 
-.service-main .service-right p i {width: 80px; height: 80px; display: inline-block; margin-bottom: 20px;}
-.service-main .service-right p label {display: block;}
+.service-main .service-right p i {width: 80px; height: 80px; display: inline-block; margin-bottom:10px;}
+.service-main .service-right p label {display: block; font-weight: 600; text-transform: uppercase;}
 
 .service-main .service-right p i.service-videography {background: url(../images/service-videography.png) no-repeat center center/auto 80px;}
 .service-main .service-right p i.service-photogrammetry {background: url(../images/service-photogrammetry.png) no-repeat center center/auto 80px;}
@@ -113,38 +124,41 @@ a{text-decoration: none; color: black;}
 
 
 
-.ai-image {position: relative;}
-.ai-image .ind-head {text-align: center; padding: 50px 0 0; box-sizing: border-box;}
-.ai-image .ind-head h2 {text-transform: uppercase; font-weight: bold; margin: 0 0 20px; font-size: 2rem; letter-spacing: 2px; line-height: 30px;}
-.ai-image .ind-head p {font-size: 1rem; text-transform: uppercase; font-weight: 600; color: #bc2c3c;}
+.ai-image {position: relative; background: rgb(231, 174, 7, 0);}
+.ai-image .ind-head {text-align: center; padding: 5% 0 0; box-sizing: border-box;}
+.ai-image .ind-head h2 {text-transform: capitalize; margin: 0 0 20px; font-size: 2rem; letter-spacing: 2px; line-height: 30px; color: #bc2c3c;}
+.ai-image .ind-head p {font-size: 1rem; text-transform: uppercase; font-weight: 600;}
 
 
 
 .industries {padding: 0; width: 100%;}
 
-.industries .ind-names {text-align: center; padding: 0 0 50px 0; width: 60%; margin: 0 auto;}
+.industries .ind-names {text-align: center; padding: 0 0 50px 0; width: 70%; margin: 0 auto;}
+
+.industries .ind-names .indus-name, .industries .ind-names .indus-name2 {background:;}
+
 .industries .ind-names .indus-name {display: block; text-align: left; width: 100%;}
 .industries .ind-names .indus-name i {width: 35%; height: 250px; display: inline-block; vertical-align:middle; margin: 0 60px 0 0;}
 .industries .ind-names .indus-name p {display: inline-block; vertical-align:middle; width: 56%;}
 
-.indus-name, .indus-name2 {padding: 30px 0; border-bottom: 1px dashed #efefef; transition: all .2s ease-in-out;}
+.indus-name, .indus-name2 {padding: 0 0; transition: all .2s ease-in-out;}
 .industries .ind-names .indus-name:last-child, .industries .ind-names .indus-name2:last-child {border-bottom: none;}
 
-.indus-name:hover, .indus-name2:hover {transform: scale(1.2);}
+.indus-name:hover, .indus-name2:hover {transform: scale(1.05); box-shadow: rgba(0, 0, 0, 0.1);}
 
 .industries .ind-names .indus-name i.highway {background: url(../images/industry-roads.png) no-repeat center center; background-size: auto 250px;}
 .industries .ind-names .indus-name i.mining {background: url(../images/industry-minning.png) no-repeat center center; background-size: auto 250px;}
 .industries .ind-names .indus-name i.power-plant {background: url(../images/industry-power.png) no-repeat center center; background-size: auto 250px;}
 .industries .ind-names .indus-name i.rivers {background: url(../images/industry-rivers.png) no-repeat center center; background-size: auto 250px;}
 
-.industries .ind-names .indus-name p label {font-size: 1rem; text-transform: uppercase; font-weight: 600; display: block; margin: 0 0 20px 0;}
+.industries .ind-names .indus-name p label {font-size: 1.3rem; text-transform: uppercase; font-weight: 600; display: block; margin: 0 0 20px 0; color: #bc2c3c;}
 .industries .ind-names .indus-name p span {font-size: 0.9rem;}
 
 .industries .ind-names .indus-name2 {display: block; text-align: left; width: 100%;}
 .industries .ind-names .indus-name2 i {width: 35%; height: 250px; display: inline-block; vertical-align:middle;}
 
 .industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 56%; text-align: right; margin: 0 60px 0 0;}
-.industries .ind-names .indus-name2 p label {font-size: 1rem; text-transform: uppercase; font-weight: 600; display: block; margin: 0 0 20px 0;}
+.industries .ind-names .indus-name2 p label {font-size: 1.2rem; text-transform: uppercase; font-weight: 600; display: block; margin: 0 0 20px 0; color: #bc2c3c;}
 .industries .ind-names .indus-name2 p span {font-size: 0.9rem;}
 
 .industries .ind-names .indus-name2 i.railway {background: url(../images/industry-railway.png) no-repeat center center; background-size: auto 250px;}
@@ -152,19 +166,19 @@ a{text-decoration: none; color: black;}
 .industries .ind-names .indus-name2 i.oil-gas {background: url(../images/industry-oil-gas.png) no-repeat center center; background-size: auto 250px;}
 .industries .ind-names .indus-name2 i.urban-planning {background: url(../images/industry-urban-planning.png) no-repeat center center; background-size: auto 250px;}
 
-.testimonial {background: #f9f9f9; padding: 50px 100px; width: 100%; box-sizing: border-box;}
+.testimonial {background:  rgb(231, 174, 7, 0.1); padding: 5% 20%; width: 100%; box-sizing: border-box;}
 .testimonial .test-left {text-align: center;}
-.testimonial .test-left h2 {font-size: 2rem; line-height: 30px;}
+.testimonial .test-left h2 {font-size: 2rem; line-height: 30px; color: #bc2c3c;}
 .testimonial .test-left p {margin: 20px 0;}
 .testimonial .test-left span {display: block;}
 .testimonial .test-left span label {font-weight: 600; font-size: 1rem;}
 .testimonial .test-left span i {font-size: 0.8rem; color: #3f3f3f; font-style: normal;}
 
 
-.drone-pilot {background: #F8F3E6;}
-.drone-pilot .pilot-left {width: 45%; padding: ; background: url(../images/banner-pilot.png) no-repeat center center; height: 430px; display: inline-block; vertical-align: middle;}
-.drone-pilot .pilot-right {width: 54%; padding: 200px 100px; box-sizing: border-box; display: inline-block; vertical-align: middle;}
-.drone-pilot .pilot-right h2 {font-size: 2rem; line-height: 3rem;}
+.drone-pilot {background:  rgb(231, 174, 7, 0.1); padding: 10% 5%; box-sizing: border-box;}
+.drone-pilot .pilot-left {width: 45%; background: url(../images/banner-pilot.png) no-repeat center center; height: 430px; display: inline-block; vertical-align: middle;}
+.drone-pilot .pilot-right {width: 54%; box-sizing: border-box; display: inline-block; vertical-align: middle;}
+.drone-pilot .pilot-right h2 {font-size: 2rem; line-height: 3rem; color: #bc2c3c; text-transform: capitalize;}
 .drone-pilot .pilot-right p {margin: 20px 0; line-height: 30px; font-size: 1rem;}
 .drone-pilot .pilot-right a {}
 
@@ -180,8 +194,8 @@ a{text-decoration: none; color: black;}
 .footer label a {color: #fff; font-size: 12px;}
 
 
-.whtBlock {width: 100%; padding: 50px 380px; text-align: left; margin: 0 auto; box-sizing: border-box;}
-.whtBlock h2 {padding: 10px 0; font-size: 2rem; text-transform: capitalize; text-align: center; margin: 0 0 30px;}
+.whtBlock {width: 100%; padding: 5% 30%; text-align: left; margin: 0 auto; box-sizing: border-box;}
+.whtBlock h2 {padding: 10px 0; font-size: 2rem; text-transform: capitalize; text-align: center; margin: 0 0 30px; color: #bc2c3c;}
 
 .wdFull {width: 100%!important;}
 
@@ -189,7 +203,9 @@ a{text-decoration: none; color: black;}
 .frm p {margin: 0 0 30px 0; text-align: left;}
 .frm p label {display: block; font-size: 0.9rem; margin: 0 0 15px 0; font-weight: 600;}
 .frm p span {display: block;}
-.frm p input {padding:15px; border: 1px solid #efefef; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif;}
+.frm p input {padding:15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c;}
+.frm p input:focus {border: 1px solid #bc2c3c;}
+
 
 .contact {}
 
