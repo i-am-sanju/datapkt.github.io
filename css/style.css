@@ -13,6 +13,9 @@ header{background-color: #f7f3f0; padding: 20px 0 0 30px;}
 
 a{text-decoration: none; color: black;}
 .logo{background: url(../images/datapkt-logo.svg) no-repeat center left; width: 160px; height: 34px; background-size: contain; display: block; margin: 0 0 20px 0;}
+.logowhite {background: url(../images/datapkt-logo-white.png) no-repeat center left; width: 160px; height: 34px; background-size: contain; display: block; margin: 0 0 20px 0;}
+
+
 .nav {display: none;}
 .nav li {display: inline-block; vertical-align: middle; padding: 0 20px;}
 .nav li a {display: block; padding: 20px 0 3px; text-transform: uppercase; transition: all .5s ease; color: #3f3f3f; font-size: 14px; font-weight: 600;}
@@ -75,19 +78,19 @@ a{text-decoration: none; color: black;}
 
 .partner-main {background: #fff; position: relative; clear: both;}
 
-.client-logos {text-align:  left; padding:30px 0 30px 30px; box-sizing: border-box; clear: both; position: relative; background: #bc2c3c;}
+.client-logos {text-align:  center; padding:30px 0 30px 30px; box-sizing: border-box; clear: both; position: relative; background: #bc2c3c;}
 .client-logos label {display: inline-block; vertical-align: top; margin: 0 9% 0 0; font-weight: 600; width: 100px; height: 50px;}
 .client-logos label:last-child {margin: 0;}
 
 .client-logos h2 {margin: 0 0 30px 0; text-align: left; font-size: 1rem; padding: 0 0 0 10px; color: #fff; display: none;}
 
 
-.client-logos .nhai {background: url(../images/logo-nhai.png) no-repeat center center/contain;}
-.client-logos .nhidcl {background: url(../images/logo-nhidcl.jpeg) no-repeat center center/contain;}
-.client-logos .ginfra {background: url(../images/logo-ginfra.png) no-repeat center center/contain;}
-.client-logos .soi {background: url(../images/logo-survey-of-india.png) no-repeat center center/contain;}
-.client-logos .delhimetro {background: url(../images/logo-delhi-metro.png) no-repeat center center/contain;}
-.client-logos .indianrailways {background: url(../images/logo-indian-railways.png) no-repeat center center/contain;}
+.client-logos .nhai {background: url(../images/logo-nhai.png) no-repeat center center; background-size: auto 60px;}
+.client-logos .nhidcl {background: url(../images/logo-nhidcl.png) no-repeat center center; background-size: auto 120px;}
+.client-logos .ginfra {background: url(../images/logo-ginfra.png) no-repeat center center; background-size: auto 60px;}
+.client-logos .soi {background: url(../images/logo-survey-of-india.png) no-repeat center center/contain; display: none;}
+.client-logos .delhimetro {background: url(../images/logo-delhi-metro.png) no-repeat center center; background-size: auto 80px;}
+.client-logos .indianrailways {background: url(../images/logo-indian-railways.png) no-repeat center center/contain; background-size: auto 60px;}
 
 
 
@@ -202,15 +205,18 @@ a{text-decoration: none; color: black;}
 .drone-pilot .pilot-right a {}
 
 
-.footer {background: #2C2627; padding: 20px; color: #fff; font-size: 12px;}
+.footer {background: #2C2627; padding: 50px; color: #fff; font-size: 12px;}
 
-.ftrtop {text-align: right; margin: 20px 0;}
+.ftrtop {text-align: right; margin: 0; float: right; opacity: 0.7;}
 .ftrtop span {display: block;}
+.footer .ftrtop label {display: block; color: #fff;}
+.footer .ftrtop a {color: #fff !important; font-size: 12px; display: block; margin: 10px 0;}
 
-.footer p {float: left;}
-.footer p span {}
-.footer label {float: right;}
-.footer label a {color: #fff; font-size: 12px;}
+
+.footer p {}
+.footer p span {opacity: 0.7;}
+
+
 
 
 .whtBlock {width: 100%; padding: 5% 30%; text-align: left; margin: 0 auto; box-sizing: border-box;}
