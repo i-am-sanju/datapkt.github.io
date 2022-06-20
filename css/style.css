@@ -129,23 +129,22 @@ a{text-decoration: none; color: black;}
 .service-main .service-right {margin: 5% 0 0;}
 
 
-.service-main .service-right p {display: inline-block; vertical-align: top; text-align: center; margin: 0 4% 0 0; width: 150px; background:  rgb(231, 174, 7, 0.2); padding: 20px; border-radius: 4px; transition: all .2s ease-in-out;}
-.service-main .service-right p:hover {transform: scale(1.2);}
+.service-main .service-right p {display: inline-block; vertical-align: top; text-align: center; margin: 0 0 0 0; width: 20%; border-radius: 4px; transition: all .2s ease-in-out;}
 .service-main .service-right p:last-child {margin: 0;}
 
-.service-main .service-right p i {width: 80px; height: 80px; display: inline-block; margin-bottom:10px;}
+.service-main .service-right p i {width: 140px; height: 140px; display: inline-block; margin-bottom:10px;}
 .service-main .service-right p label {display: block; font-weight: 600; text-transform: uppercase;}
 
-.service-main .service-right p i.service-cinematography {background: url(../images/service-cinematography.png) no-repeat center center/auto 80px;}
-.service-main .service-right p i.service-photogrammetry {background: url(../images/service-photogrammetry.png) no-repeat center center/auto 80px;}
-.service-main .service-right p i.service-lidar {background: url(../images/service-lidar.png) no-repeat center center/auto 80px;}
-.service-main .service-right p i.service-thermal {background: url(../images/service-thermal.png) no-repeat center center/auto 80px;}
+.service-main .service-right p i.service-cinematography {background: url(../images/service-cinematography.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-photogrammetry {background: url(../images/service-photogrammetry.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-lidar {background: url(../images/service-lidar.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-thermal {background: url(../images/service-thermal.png) no-repeat center center/auto 140px;}
 
 
-.service-main .service-right p i.service-hyper {background: url(../images/service-hyperspectral.png) no-repeat center center/auto 80px;}
-.service-main .service-right p i.service-bathymatery {background: url(../images/service-bathymatery.png) no-repeat center center/auto 80px;}
-.service-main .service-right p i.service-delivery {background: url(../images/service-dronedelivery.png) no-repeat center center/auto 80px;}
-.service-main .service-right p i.service-environment {background: url(../images/service-environmental.png) no-repeat center center/auto 80px;}
+.service-main .service-right p i.service-hyper {background: url(../images/service-hyperspectral.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-bathymatery {background: url(../images/service-bathymatery.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-delivery {background: url(../images/service-dronedelivery.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-environment {background: url(../images/service-environmental.png) no-repeat center center/auto 140px;}
 
 
 
