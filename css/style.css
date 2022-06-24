@@ -132,19 +132,19 @@ a{text-decoration: none; color: black;}
 .service-main .service-right p {display: inline-block; vertical-align: top; text-align: center; margin: 0 0 0 0; width: 20%; border-radius: 4px; transition: all .2s ease-in-out;}
 .service-main .service-right p:last-child {margin: 0;}
 
-.service-main .service-right p i {width: 140px; height: 140px; display: inline-block; margin-bottom:10px;}
+.service-main .service-right p i {width: 180px; height: 160px; display: inline-block; margin-bottom:10px;}
 .service-main .service-right p label {display: block; font-weight: 600; text-transform: uppercase;}
 
-.service-main .service-right p i.service-cinematography {background: url(../images/service-cinematography.png) no-repeat center center/auto 140px;}
-.service-main .service-right p i.service-photogrammetry {background: url(../images/service-photogrammetry.png) no-repeat center center/auto 140px;}
-.service-main .service-right p i.service-lidar {background: url(../images/service-lidar.png) no-repeat center center/auto 140px;}
-.service-main .service-right p i.service-thermal {background: url(../images/service-thermal.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-cinematography {background: url(../images/service-cinematography.png) no-repeat center center/auto 180px;}
+.service-main .service-right p i.service-photogrammetry {background: url(../images/service-photogrammetry.png) no-repeat center center/auto 180px;}
+.service-main .service-right p i.service-lidar {background: url(../images/service-lidar.png) no-repeat center center/auto 180px;}
+.service-main .service-right p i.service-thermal {background: url(../images/service-thermal.png) no-repeat center center/auto 180px;}
 
 
-.service-main .service-right p i.service-hyper {background: url(../images/service-hyperspectral.png) no-repeat center center/auto 140px;}
-.service-main .service-right p i.service-bathymatery {background: url(../images/service-bathymatery.png) no-repeat center center/auto 140px;}
-.service-main .service-right p i.service-delivery {background: url(../images/service-dronedelivery.png) no-repeat center center/auto 140px;}
-.service-main .service-right p i.service-environment {background: url(../images/service-environmental.png) no-repeat center center/auto 140px;}
+.service-main .service-right p i.service-hyper {background: url(../images/service-hyperspectral.png) no-repeat center center/auto 180px;}
+.service-main .service-right p i.service-bathymatery {background: url(../images/service-bathymatery.png) no-repeat center center/auto 180px;}
+.service-main .service-right p i.service-delivery {background: url(../images/service-dronedelivery.png) no-repeat center center/auto 180px;}
+.service-main .service-right p i.service-environment {background: url(../images/service-environmental.png) no-repeat center center/auto 180px;}
 
 
 
@@ -163,22 +163,22 @@ a{text-decoration: none; color: black;}
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {background:;}
 
 .industries .ind-names .indus-name {display: block; text-align: left; width: 100%;}
-.industries .ind-names .indus-name i {width: 35%; height: 250px; display: inline-block; vertical-align:middle; margin: 0 60px 0 0;}
+.industries .ind-names .indus-name i {width: 220px; height: 220px; display: inline-block; vertical-align:middle; margin: 0 20px 0 0;}
 .industries .ind-names .indus-name p {display: inline-block; vertical-align:middle; width: 56%;}
 
 .indus-name, .indus-name2 {padding: 0 0; transition: all .2s ease-in-out;}
 .industries .ind-names .indus-name:last-child, .industries .ind-names .indus-name2:last-child {border-bottom: none;}
  
-.indus-name:hover, .indus-name2:hover {transform: scale(1.05); box-shadow: rgba(0, 0, 0, 0.1);}
+/*.indus-name:hover, .indus-name2:hover {transform: scale(1.05); box-shadow: rgba(0, 0, 0, 0.1);}*/
 
-.industries .ind-names .indus-name i.highway {background: url(../images/industry-roads.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name2 i.mining {background: url(../images/industry-minning.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name i.power-plant {background: url(../images/industry-power.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name2 i.rivers {background: url(../images/industry-rivers.png) no-repeat center center; background-size: auto 250px;}
+.industries .ind-names .indus-name i.highway {background: url(../images/industry-roads.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name2 i.mining {background: url(../images/industry-minning.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name i.power-plant {background: url(../images/industry-power.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name2 i.rivers {background: url(../images/industry-rivers.png) no-repeat center center; background-size: auto 220px;}
 
 
-.industries .ind-names .indus-name i.agriculture {background: url(../images/industry-agriculture.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name2 i.archaelogy {background: url(../images/industry-archaelogy.png) no-repeat center center; background-size: auto 250px;}
+.industries .ind-names .indus-name i.agriculture {background: url(../images/industry-agriculture.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name2 i.archaelogy {background: url(../images/industry-archaelogy.png) no-repeat center center; background-size: auto 220px;}
 
 
 
@@ -186,19 +186,19 @@ a{text-decoration: none; color: black;}
 .industries .ind-names .indus-name p span {font-size: 0.9rem;}
 
 .industries .ind-names .indus-name2 {display: block; text-align: left; width: 100%;}
-.industries .ind-names .indus-name2 i {width: 35%; height: 250px; display: inline-block; vertical-align:middle;}
+.industries .ind-names .indus-name2 i {width: 220px; height: 220px; display: inline-block; vertical-align:middle;}
 
-.industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 56%; text-align: right; margin: 0 60px 0 0;}
+.industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 56%; text-align: right; margin: 0 20px 0 0;}
 .industries .ind-names .indus-name2 p label {font-size: 1.2rem; text-transform: uppercase; font-weight: 600; display: block; margin: 0 0 20px 0; color: #bc2c3c;}
 .industries .ind-names .indus-name2 p span {font-size: 0.9rem;}
 
-.industries .ind-names .indus-name2 i.railway {background: url(../images/industry-railway.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name i.manufacturing {background: url(../images/industry-manufacturing.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name i.oil-gas {background: url(../images/industry-oil-gas.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name i.urban-planning {background: url(../images/industry-urban-planning.png) no-repeat center center; background-size: auto 250px;}
+.industries .ind-names .indus-name2 i.railway {background: url(../images/industry-railway.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name i.manufacturing {background: url(../images/industry-manufacturing.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name i.oil-gas {background: url(../images/industry-oil-gas.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name i.urban-planning {background: url(../images/industry-urban-planning.png) no-repeat center center; background-size: auto 220px;}
 
-.industries .ind-names .indus-name2 i.survelliance {background: url(../images/industry-survelliance.png) no-repeat center center; background-size: auto 250px;}
-.industries .ind-names .indus-name2 i.wildlife {background: url(../images/industry-wildlife.png) no-repeat center center; background-size: auto 250px;}
+.industries .ind-names .indus-name2 i.survelliance {background: url(../images/industry-survelliance.png) no-repeat center center; background-size: auto 220px;}
+.industries .ind-names .indus-name2 i.wildlife {background: url(../images/industry-wildlife.png) no-repeat center center; background-size: auto 220px;}
 
 
 .testimonial {background:  rgb(231, 174, 7, 0.1); padding: 5% 20%; width: 100%; box-sizing: border-box;}
