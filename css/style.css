@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 body{font-family: 'Montserrat', sans-serif; color: #2C2627; font-size: 14px;    margin: 0px; line-height: 20px;}
 
 html {scroll-behavior: smooth !important;}
@@ -19,7 +20,7 @@ a{text-decoration: none; color: black;}
 .nav {display: none;}
 .nav li {display: inline-block; vertical-align: middle; padding: 0 20px;}
 .nav li a {display: block; padding: 20px 0 3px; text-transform: uppercase; transition: all .5s ease; color: #3f3f3f; font-size: 14px; font-weight: 600;}
-.nav li a:hover {}
+/* .nav li a:hover {} */
 /* Common Class */
 .fL {float: left;}
 .fR {float: right;}
@@ -39,7 +40,7 @@ a{text-decoration: none; color: black;}
 
 
 
-.fullheight {height: 100vh;}
+
 
 .twhite {color: #fff;}
 
@@ -233,7 +234,7 @@ a{text-decoration: none; color: black;}
 
 
 .whtBlock {width: 100%; padding: 5% 30%; text-align: left; margin: 0 auto; box-sizing: border-box;}
-.whtBlock h2 {padding: 10px 0; font-size: 2rem; text-transform: capitalize; text-align: center; margin: 0 0 30px; color: #bc2c3c;}
+.whtBlock h2 {padding: 10px 0; font-size: 2rem; line-height: 2rem; text-transform: capitalize; text-align: center; margin: 0 0 30px; color: #bc2c3c;}
 
 .wdFull {width: 100%!important;}
 
@@ -287,7 +288,7 @@ a{text-decoration: none; color: black;}
 
   .industries .ind-names .indus-name i {margin: 0 20px 0 0; height: 125px; background-size: auto 125px !important;}
   
-  .industries .ind-names .indus-name p {}
+  /* .industries .ind-names .indus-name p {} */
 
   .industries .ind-names .indus-name {padding: 30px 0;}
   .industries .ind-names .indus-name2 {padding: 30px 0;}
@@ -302,4 +303,80 @@ a{text-decoration: none; color: black;}
   .drone-pilot .pilot-left {display: block; width: 100%; padding: 30px 0; background-size: contain; height: 215px;}
   .drone-pilot .pilot-right {display: block; width: 100%; padding: 0 20px 20px 20px;}
   .drone-pilot .pilot-right h2 {font-size: 1.8rem;}
+  }
+
+  @media(min-width:1200px){
+    .fullheight {height: 100vh;}
+  }
+
+  @media(max-width:1199px) {
+    .whydatapkt,
+    .dp-process{min-width: 100%;}
+    .dp-process .process i{width: 80px; height: 80px;  display: inline; float: left;}
+    .dp-process .process span,
+    .dp-process .process label{width: calc(100% - 100px); float: right; display: inline;}
+    .whydatapkt{margin: 30px 0 0;}
+    .dp-process{padding-top: 0;}
+    .ai-image .ind-head{padding: 3% 0 0;} 
+    .drone-pilot{padding: 2% 5%;}
+    .whtBlock{padding: 3% 30%;}
+    .main-text{top: 50%; transform: translateY(-50%);}
+    .main-text{width:100%;}
+    .industries .ind-names .indus-name p label{font-size: 1.0rem;}
+
+    
+  }
+
+  @media(max-width:992px) {
+    .service-main .service-right{max-width: 70%; margin: 0 auto;}
+    .service-main .service-right > p{width: calc(50% - 2px); display: inline-block; }
+    .service-main .service-right > p,
+    .service-main .service-right p:last-child{margin-bottom: 30px;}
+    .ai-image .ind-head{margin-top: 0; padding-top: 0;}
+  }
+
+  @media(max-width:791px) {
+    .industries .ind-names .indus-name,
+    .industries .ind-names .indus-name2,
+    .client-logos{display: flex; align-items: center; justify-content: center;}
+    .client-logos label{margin: 0;}
+    
+  }
+
+  @media(max-width:767px) {
+    .dp-process .dp-process{min-width: 100%; max-width: 100%; width: 100%;}
+    .main-text span,
+    .main-text label{font-size: 1.5rem; line-height: 25px;}
+    .redbtn {padding: 10px 20px;}
+    .dp-process .process{width: 100%; min-width: 100%;}
+    .service-main .service-right{width: 100%; min-width: 100%; max-width: 100%; padding: 0 50px;}
+    .service-main .service-right p i{width: 100%; min-width: 100%;}
+
+  }
+@media (max-width:640px) {
+  .service-main .service-right > p{width: 100%; min-width: 100%; max-width: 100%;}
+  .industries .ind-names{width: 100%; min-width: 100%;}
+
+  
+}
+  @media(max-width:447px) {
+    .main-text span,
+    .main-text label{font-size: 1rem; line-height: 15px;}
+    .main-text p{font-size: 12px;}
+  }
+
+  @media(max-width:392px) {
+    .main-text span,
+    .main-text label{font-size: 1rem; line-height: 15px;}
+    .main-text p{font-size: 12px;}
+    .main-text p {margin: 5px 0 10px;}
+    .logo{width: 140px; margin-bottom: 10px;}
+  }
+
+  @media(max-width:392px) {
+    .main-text span,
+    .main-text label{font-size: 1rem; line-height: 15px;}
+    .main-text p{font-size: 12px;}
+    .main-text p {margin: 5px 0 10px;}
+    .logo{width: 140px; margin-bottom: 10px;}
   }
